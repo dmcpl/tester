@@ -1,0 +1,13 @@
+{
+    "filters": [
+        {
+            "radius": 5,
+            "latitude": "{{ .Longitude }}",
+            "longitude": "{{ .Latitude }}",
+            "filter_type": "delivers_to_or_within_radius"
+        },
+        {
+            "filter_type": "is_acquired"
+        }
+    ]
+}
